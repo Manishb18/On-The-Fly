@@ -1,0 +1,11 @@
+{
+    "name" : "On-The-Fly",
+    "description" : "Nothing",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "action" : {
+        "default_title" : "On-The-Fly",
+        "default_popup":"index.html"
+    }
+
+}

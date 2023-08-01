@@ -1,0 +1,35 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.todo-hero-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.todoForm{
+    display: flex;
+    flex-direction: column;
+}
+.todoForm >input{
+    margin-bottom: 10px;
+    width: 30rem;
+}
+.todos{
+    align-self: flex-start;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    width: 7rem;
+}

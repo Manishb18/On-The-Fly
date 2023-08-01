@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.Nav{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    gap: 2rem;
+    color: white;
+    padding: 15px;
+}
+.Nav .siteName{
+    font-size: 2rem;
+}
+.Nav ul{
+    color: inherit;
+    display: flex;
+    width:25%;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.Nav a{
+    color: inherit;
+    text-decoration: none;
+}
+

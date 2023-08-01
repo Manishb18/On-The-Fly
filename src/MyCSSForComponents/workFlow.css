@@ -1,0 +1,26 @@
+.hero-container{
+    /* margin-top: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* border: 1px solid red; */
+}
+.tasks
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.tasks a{
+    text-decoration: none;
+    color: black;
+}
+.tasks > div{
+    border: 2px solid black;
+    text-align: center;
+    width: 500px;
+}
